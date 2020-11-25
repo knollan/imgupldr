@@ -1,0 +1,18 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Awesome App</title>
+</head>
+<body>
+    <div id="osImageMgrPro"
+        data-upload-api="https://localhost:8001/image-upload"
+        data-width="1080"
+        data-height="500">
+    </div>
+    <script src="imgupldr.js"></script>
+</body>
+</html>

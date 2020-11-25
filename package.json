@@ -1,0 +1,42 @@
+{
+  "name": "imgupldr",
+  "version": "1.0.0",
+  "description": "Image uploader with crop and resize",
+  "main": "index.js",
+  "repository": "https://github.com/knollan/imgupldr/src",
+  "author": "Knollan Tanteo",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "dev": "npx webpack --config webpack.config.js --watch"
+  },
+  "dependencies": {
+    "@types/react-image-crop": "^8.1.2",
+    "compressorjs": "^1.0.6",
+    "core-js": "^3.6.5",
+    "fetch": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-image-crop": "^8.6.4",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^1.0.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
